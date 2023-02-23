@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/andlabs/reallymine/bridge"
+	"github.com/undeadbanegithub/reallymine/bridge"
 )
 
 func formatSectorPos(pos int64) string {

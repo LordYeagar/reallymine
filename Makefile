@@ -1,5 +1,5 @@
 PROJECT ?= $(notdir $(patsubst %/,%,$(CURDIR)))
-PACKAGE ?= github.com/andlabs/$(PROJECT)
+PACKAGE ?= github.com/undeadbanegithub/$(PROJECT)
 
 GO_SOURCES = $(shell find . -type f \( -iname '*.go' \) \
 	-not \( -path "./vendor/*" -path ".*" \) \

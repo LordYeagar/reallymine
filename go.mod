@@ -1,4 +1,4 @@
-module github.com/andlabs/reallymine
+module github.com/undeadbanegithub/reallymine
 
 go 1.15
 
